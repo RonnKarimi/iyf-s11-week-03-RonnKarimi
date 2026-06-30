@@ -1,0 +1,86 @@
+PS C:\Users\USER> pwd
+
+Path
+----
+C:\Users\USER
+
+
+PS C:\Users\USER> ls
+
+
+    Directory: C:\Users\USER
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         6/22/2026   2:00 PM                .copilot
+d-----         6/22/2026   1:59 PM                .vscode
+d-----         6/22/2026   1:59 PM                .vscode-shared
+d-r---          4/1/2024  12:11 PM                Contacts
+d-r---         6/22/2026   1:57 PM                Desktop
+d-r---         5/30/2026   6:54 PM                Documents
+d-r---         6/30/2026  10:05 PM                Downloads
+d-r---          4/1/2024  12:11 PM                Favorites
+d-r---          4/1/2024  12:11 PM                Links
+d-r---          4/1/2024  12:11 PM                Music
+dar--l         6/30/2026   4:59 PM                OneDrive
+d-r---          6/1/2026  10:49 AM                Pictures
+d-r---          4/1/2024  12:11 PM                Saved Games
+d-r---         5/12/2026  11:53 AM                Searches
+d-r---         5/13/2026   3:49 AM                Videos
+-a----         6/26/2026   4:22 PM             53 .git-for-windows-updater
+-a----         6/22/2026   1:58 PM            184 .gitconfig
+
+
+PS C:\Users\USER> cd ~/Documents
+PS C:\Users\USER\Documents> cd ..
+PS C:\Users\USER> cd ~
+PS C:\Users\USER> mkdir my-project/
+
+
+    Directory: C:\Users\USER
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         6/30/2026  10:19 PM                my-project
+
+
+PS C:\Users\USER> cd my-project
+PS C:\Users\USER\my-project> mkdir -p src/css, src/js, src/images
+
+
+    Directory: C:\Users\USER\my-project\src
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         6/30/2026  10:24 PM                css
+d-----         6/30/2026  10:24 PM                js
+d-----         6/30/2026  10:24 PM                images
+
+
+PS C:\Users\USER\my-project> mkdir docs, tests
+
+
+    Directory: C:\Users\USER\my-project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         6/30/2026  10:25 PM                docs
+d-----         6/30/2026  10:25 PM                tests
+
+
+PS C:\Users\USER\my-project> New-Item README.md
+
+
+    Directory: C:\Users\USER\my-project
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         6/30/2026  10:25 PM              0 README.md
+
+
+PS C:\Users\USER\my-project>
